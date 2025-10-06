@@ -31,11 +31,14 @@
 
 .header__links-list-item {
   list-style: circle;
-  text-decoration: underline;
 }
 
 .header__links-list-item_no-bullit {
   list-style: none;
+  text-decoration: none;
+}
+
+.header__links-list-item_no-bullit a{
   text-decoration: none;
 }
 
@@ -170,6 +173,10 @@
   color: white;
 }
 
+.card-link {
+  text-decoration: none;
+}
+
 .card__title {
   font-weight: 700;
   font-style: bold;
@@ -188,7 +195,6 @@
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0%;
-  text-decoration: none;
   margin: auto 40px 48px 40px;
   z-index: 1;
 }
@@ -265,7 +271,7 @@
   margin-top: -145px;
 }
 
-.second_paragraf {
+.second_paragraph {
   margin-top: 25px;
 }
 
